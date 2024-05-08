@@ -1,0 +1,305 @@
+/*fixed-table */
+.fixed-table {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.fixed-table-header {
+    width: 100%;
+    height: 90px;
+    background-color: #a27f15;
+    padding-left: 60px;
+    font-size: 36px;
+    text-align: left;
+    color: white;
+}
+
+.fixed-table-left-col {
+    width: 250px;
+    height: 480px;
+    background-color: #8bd3ff;
+    vertical-align: middle;
+    font-size: 36px;
+    text-align: center;
+}
+
+.fixed-table-middle-col {
+    width: 400px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 36px;
+}
+
+.fixed-table-right-col {
+    width: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    vertical-align: middle;
+
+}
+
+.fixed-table-footer {
+    height: 80px;
+    width: 100%;
+    background-color: #a27f15;
+    color: white;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 60px;
+
+}
+
+.fixed-table-right-col-inner {
+    width: 230px;
+    height: 460px;
+    background-color: #8bd3ff;
+    text-align: center;
+}
+
+/*gymi-table Встановила ширину таблиці відсотками, а не фіксованою шириною. Це дозволить таблиці змінювати свою ширину залежно від ширини батьківського контейнера.*/
+.gymi-header {
+    width: 100%;
+    height: 90px;
+    background-color: #e8b106;
+    padding-left: 60px;
+    font-size: 36px;
+    text-align: left;
+    color: white;
+}
+
+.gymi-left {
+    width: 250px;
+    height: 480px;
+    background-color: #1388d3;
+    vertical-align: middle;
+    font-size: 36px;
+    text-align: center;
+}
+
+.gymi-middle {
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 36px;
+    width: 500px;
+}
+
+.gymi-right {
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.gymi-right-text {
+    width: 100%;
+    height: 460px;
+    background-color: #1388d3;
+    text-align: center;
+
+}
+
+p {
+    margin: 0;
+    padding-top: 200px;
+    vertical-align: middle;
+    font-size: 36px;
+}
+
+.gumi-footer {
+    height: 80px;
+    width: 100%;
+    background-color: #e8b106;
+    color: white;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+/*Fix block Створила блоки для елементів і вкладіть їх у батьківський контейнер.*/
+
+.block-header {
+    background-color: #f4c94a;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 36px;
+}
+
+.block-header-center {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.block-page {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.block-main {
+    height: 800px;
+}
+
+.block-left {
+    width: 300px;
+    height: 800px;
+    float: left;
+    background-color: #2e72c0;
+    font-size: 36px;
+    text-align: center;
+}
+
+.block-right {
+    width: 800px;
+    text-align: center;
+    height: 750px;
+    padding: 25px 50px;
+
+    float: left;
+}
+
+.block-right-header {
+    background-color: #c42d2d;
+    height: 50px;
+}
+
+.block-right-col-main {
+    height: 700px;
+}
+
+.block-right-col-main-right {
+    width: 375px;
+    height: 675px;
+    float: left;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.block-left-inner {
+    height: 100%;
+    background-color: #ffffff;
+    font-size: 36px;
+}
+
+.block-right-main-left {
+    width: 375px;
+    height: 675px;
+    float: right;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.block-right-inner {
+    height: 100%;
+    background-color: #2e72c0;
+    font-size: 36px;
+
+}
+
+.block-footer {
+    height: 70px;
+    background-color: #f4c94a;
+    font-size: 36px;
+}
+
+/* Gymi block */
+.fluid-block-header {
+    background-color: #e8b106;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 36px;
+}
+
+.fluid-block-header-white {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.fluid-block-page {
+    width: 100%;
+
+}
+
+.fluid-block-main {
+    height: 800px;
+    width: 100%;
+}
+
+.fluid-block-left-col {
+    width: 30%;
+    height: 800px;
+    float: left;
+    background-color: #1388d3;
+    font-size: 36px;
+    text-align: center;
+}
+
+.fluid-block-right-col {
+    width: 70%;
+    text-align: center;
+    height: 750px;
+    padding: 25px 0;
+
+    float: left;
+}
+
+.fluid-block-right-col-header {
+    width: 100%;
+    background-color: #f60000;
+    height: 50px;
+}
+
+.fluid-block-right-col-main {
+    height: 700px;
+    justify-content: space-evenly;
+}
+
+.fluid-block-right-col-main-right {
+    width: 50%;
+    height: 675px;
+    float: left;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.fluid-block-left-col-inner {
+    height: 100%;
+    background-color: #ffffff;
+    font-size: 36px;
+    width: 80%;
+}
+
+.fluid-block-right-col-main-left {
+    width: 50%;
+    height: 675px;
+    float: right;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.fluid-block-right-col-inner {
+    height: 100%;
+    background-color: #1388d3;
+    font-size: 36px;
+    width: 80%;
+}
+
+.fluid-block-footer {
+    height: 70px;
+    background-color: #fdb700;
+    font-size: 36px;
+}
